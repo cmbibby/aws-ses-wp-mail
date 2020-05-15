@@ -13,7 +13,7 @@
 if ( ( ! defined( 'AWS_SES_WP_MAIL_KEY' ) || ! defined( 'AWS_SES_WP_MAIL_SECRET' ) || ! defined( 'AWS_SES_WP_MAIL_REGION' ) ) && ! defined( 'AWS_SES_WP_MAIL_USE_INSTANCE_PROFILE' ) ) {
 	return;
 }
-
+require_once dirname(__FILE__) . '/vendor/autoload.php';
 require_once dirname( __FILE__ ) . '/inc/class-ses.php';
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
