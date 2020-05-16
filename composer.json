@@ -20,7 +20,10 @@
   "type": "wordpress-plugin",
   "require": {
     "php": ">=5.3",
-    "composer/installers": "~1.0",
+    "composer/installers": "~1.0"
+
+  },
+  "require-dev" : {
     "aws/aws-sdk-php": "~3.18"
   }
 }
