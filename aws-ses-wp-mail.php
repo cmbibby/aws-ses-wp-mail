@@ -8,6 +8,7 @@
  * Author URI:   https://github.com/humanmade
  * License:      GPL-2.0+
  * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ * GitHub Plugin URI: cmbibby/aws-ses-wp-mail
  */
 
 if ( ( ! defined( 'AWS_SES_WP_MAIL_KEY' ) || ! defined( 'AWS_SES_WP_MAIL_SECRET' ) || ! defined( 'AWS_SES_WP_MAIL_REGION' ) ) && ! defined( 'AWS_SES_WP_MAIL_USE_INSTANCE_PROFILE' ) ) {
